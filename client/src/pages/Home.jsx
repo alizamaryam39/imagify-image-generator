@@ -12,6 +12,7 @@ const Home = () => {
       <Description/>
       <Testimonials/>
       <GenerateBtn/>
+      
     </div>
   )
 }
