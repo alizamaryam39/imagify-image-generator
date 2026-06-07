@@ -1,14 +1,16 @@
-
+import { useState } from 'react'
 import { assets } from '../assets/assets'
 
-const {image, setImage} = useState (assets.sample_img_1)
-const [isImageLoaded, setIsImageLoaded] = useState(true)
-const [loading, setLoading] = useState(false)
-const [input, setInput] = useState('')
 
 
 
 const Result = () => {
+
+  const {image, setImage} = useState (assets.sample_img_1)
+const [isImageLoaded, setIsImageLoaded] = useState(true)
+const [loading, setLoading] = useState(false)
+const [input, setInput] = useState('') 
+
   return (
     <form className='flex flex-col min-h-[90vh] justify-center items-center'>
     <div>
